@@ -62,21 +62,38 @@
           <p>Pygrammers is a community of python enthusisasts with similar interest</p>
           <a href="https://web.telegram.org/k/" class="tele">Telegram</a>
       </div>
-      <div id="form">
-        <h1>Form:</h1>
-        <label>Name</label>
-        <input type="text" class="wid">
-        <label>Mobile Number</label>
-        <input type="text" class="wid">
-        <label>Email address</label>
-        <input type="email" class="wid">
-        <label>Company/Institution name</label>
-        <input type="text" class="wid">
-        <p class="short">Upload a short video or image of hand written sheet showing your interest to join build.myweb</p>
-        <input type="file" >
-        <input type="text" placeholder="Have you attended any events by Pygrammers before?!" class="wid one">
-        <button class="sub">Submit form</button>
-    </div><div id="jk">
+      
+    <form>
+      <h3>Form</h3>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name:">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email:">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Mobile Number</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Mobile Number:">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Company/Institute Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Company Name:">
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">upload a short video on your interest</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      <label for="exampleDataList" class="form-label">Programiz</label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Have you attended any other program?">
+<datalist id="datalistOptions">
+  <option value="Yes">
+  <option value="No">
+</datalist>
+<button type="button" class="btn btn-primary">Submit</button>
+    </form>
+    <div id="jk">
     <h1 class="mentor">Mentors</h1>
     <div class="car">
         <div class="box">
